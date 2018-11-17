@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;
+	font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+/*main header*/
+.main_header {
+background-color: #1B2936;
+box-shadow: 0 0 5px;
+padding-top: 20px;
+
+padding-bottom: 20px;
+
+
+}
+
+
+.logo {
+/*	
+background-image: url("/static/ds_app/images/ds-big-logo.png");
+height: 170px;
+background-repeat: no-repeat;
+background-position: left;
+*/
+text-align: center;
+/*border: 1px solid red;*/
+min-width: 270px;
+
+}
+/*adress*/
+
+.adress {
+	
+	margin-top: 10px;
+	color: #ffffff;
+	font-family: 'Comfortaa', cursive;
+	
+}
+
+
+.adress-ul li {
+	margin-top: 10px;
+}
+
+.adr-wrapper {
+	border:1px solid #FDC300;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*navbar*/
+.navbar {
+	width: 100%;
+	
+
+} 
+
+.nav-item {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	
+}
+
+.nav-item:hover {
+	/*border: 1px solid #1B2936;*/
+	border-radius: 10px;
+	margin-bottom: -2px;	
+	background-color: #FDC300;
+	font-weight: bold;
+	box-shadow: 0 5px 15px -5px rgba(125,124,41,0.9);
+
+}
+
+
+.adr {
+
+}
+
+/*search*/
+
+
+.searchForm {
+	margin-top: 10px;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.searchForm input {
+	color: blue;
+}
+
+.sticky-top {
+	background-color: white;
+}
+
+
+
+
+/*tester*/
+.tester {
+	width: 100%;
+	height: 2000px;
+	background-color: #1B2936;
+	margin-top: 2rem;
+
+}
+
+
+
+/*media*/
+@media (max-width: 278px) {
+		.logo {text-align: center;
+	}
+}
+@media (max-width: 320px) {
+	.main_header {
+		padding-left: 0;
+		}
+		.logo {text-align: center;
+	}
+
+	.searchForm {
+		flex-wrap: wrap;
+	}
+	.searchForm input {
+		margin: 0;
+	}
+
+	.searchForm button {
+		margin: 5px auto;
+	}
+
+}
+
+@media (max-width: 575px) {
+	.logo {text-align: center;
+	}
+	.adr-wrapper {
+		/*background-color: green;*/
+		margin-top:10px;
+		
+	}
+	.adress {
+		/*border:2px solid white;*/
+		margin: 0 auto;
+
+	}
+}
