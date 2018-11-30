@@ -88,7 +88,7 @@ min-width: 270px;
 }
 
 .adr-wrapper {
-	border:1px solid #FDC300;
+	border:3px solid #FDC300;
 	padding: 10px;
 	border-radius: 5px;
 	
@@ -98,6 +98,45 @@ min-width: 270px;
 .row {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+
+
+.sampo {
+/*	
+background-image: url("/static/ds_app/images/ds-big-logo.png");
+height: 170px;
+background-repeat: no-repeat;
+background-position: left;
+*/
+text-align: center;
+
+margin-top: 20px;
+
+}
+.zakaz-outer {
+	
+	color: #ffffff;
+	text-align: center;
+	
+	font-family: 'Comfortaa', cursive;
+	
+
+}
+.zakaz-inner  {
+	margin-top: 60px;
+
+
+}
+.zakaz-inner button {
+	 box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+.zakaz-inner button:hover {
+	background-color: #ffffff;
+	box-shadow: 0 0 5px;
+	border: 2px solid red;
+	text-shadow: 1px 0 1px;
+	box-shadow: 0 2px 25px rgba(255, 255, 255, 0.5);
 }
 
 /*navbar*/
@@ -113,7 +152,7 @@ min-width: 270px;
 	
 }
 
-.nav-item:hover {
+.main-m:hover {
 	/*border: 1px solid #1B2936;*/
 	border-radius: 10px;
 	margin-bottom: -2px;	
@@ -129,12 +168,17 @@ min-width: 270px;
 }
 
 /*search*/
-
+.searcher {
+	border-bottom: 3px solid #1B2936;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
 
 .searchForm {
 	margin-top: 10px;
 	display: flex;
 	margin-bottom: 10px;
+	
 }
 
 .searchForm input {
@@ -149,14 +193,61 @@ min-width: 270px;
 
 
 /*tester*/
+.content-border {
+	background-color: #a1aab7;
+}
 .tester {
 	width: 100%;
 	height: 2000px;
 	background-color: #1B2936;
-	margin-top: 2rem;
+	
+	padding-left: 0;
+	padding-right: 0;
+	
 
 }
 
+/*slider*/
+.slide-1-data {
+	background-color: rgba(1,1,1,0.8);
+	border-radius: 10px;
+	font-family: 'Comfortaa', cursive;
+	padding: 10px;
+}
+
+/*about*/
+.about {
+	/*background-color: white;*/
+	border-top:3px solid #FDC300;;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center center;
+	 background-attachment: fixed;
+	 /*background-image: linear-gradient(rgba(58, 147, 216, 0.7), rgba(237, 237, 249, 0.6)), url('/static/shop/images/about-us.jpg');;*/
+	 background-image: url('/static/ds_app/images/land1.jpeg');
+
+
+	border-bottom:3px solid #FDC300;;
+}
+
+.card-deck {
+
+	margin-bottom: 30px;
+}
+
+.card-deck .card-title {
+	text-decoration: underline;
+
+}
+.card-spisok {
+	list-style: disc;
+	margin-left: 20px;
+}
 
 
 /*media*/
@@ -197,4 +288,15 @@ min-width: 270px;
 		margin: 0 auto;
 
 	}
+}
+
+@media (min-width: 768px) and (max-width: 1092px) {
+
+	.adr-wrapper {
+		border: 3px solid white;
+	}
+	.sampo {
+		display: none;
+	}
+
 }
