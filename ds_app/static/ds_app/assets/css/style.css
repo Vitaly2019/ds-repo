@@ -74,6 +74,12 @@ min-width: 270px;
 }
 /*adress*/
 
+.logo span {
+	font-size: 22px;
+	color: #FDC300;
+	font-family: 'Roboto', sans-serif;
+}
+
 .adress {
 	
 	margin-top: 10px;
@@ -111,9 +117,19 @@ background-position: left;
 */
 text-align: center;
 
-margin-top: 20px;
+margin-top: 22px;
 
 }
+
+.deviz-header {
+	text-align: center;
+	color:white;
+	margin-top: 60px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+
+}
+
 .zakaz-outer {
 	
 	color: #ffffff;
@@ -146,9 +162,10 @@ margin-top: 20px;
 
 } 
 
+
 .nav-item {
-	margin-left: 3rem;
-	margin-right: 3rem;
+	margin-left: 0.7rem; /*3rem*/
+	margin-right: 0.7rem;
 	
 }
 
